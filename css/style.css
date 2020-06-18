@@ -1,6 +1,6 @@
 
 header, main, footer {
-  width: 90%;
+  width: 760px;
   margin: 0 auto;
 }
 header > div {
@@ -9,8 +9,11 @@ header > div {
 header section, header section img {
   float: left;
 }
-header nav {
+
+
+ nav {
   float: right;
+  
 }
 #name
 
@@ -61,4 +64,25 @@ footer section button {
   content: "";
   clear: both;
   display: table;
+}
+header div section p:last-child{
+  color: #949393;
+  margin: -28px 0px 0px 50px;
+  font-size: 8px;
+}
+#nameWeb{
+  margin: 0 0 34px 48px;
+  font-size: x-large;
+}
+main section div p {
+  color: #949393;
+}
+#print{
+  text-align: right;
+}
+footer section:last-child{
+  text-align: center;
+}
+button{
+  background-color: #bb5858;
 }
