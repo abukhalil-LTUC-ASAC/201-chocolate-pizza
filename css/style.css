@@ -1,0 +1,64 @@
+
+header, main, footer {
+  width: 90%;
+  margin: 0 auto;
+}
+header > div {
+  padding: 20px;
+}
+header section, header section img {
+  float: left;
+}
+header nav {
+  float: right;
+}
+#name
+
+.wide {
+  background-image: url('../img/hr-img.png');
+  border-width: 5px;
+  background-repeat: space;
+  margin: 0;
+}
+#hrLogo {
+  text-align: center;
+  line-height: 1px;
+  overflow: visible;
+
+}
+#hrLogo:after {
+  background: url('../img/small-logo.png');
+  content: '';
+  margin: -20px auto 0;
+  background-color: #454545; /* same as background color */
+  padding: 8px 15px;
+}
+
+main section > img {
+  width: 100%;
+}
+
+.text {
+  text-indent: 50px;
+}
+
+ul {
+  float: left
+}
+article.list {
+  background-image: url('../img/list-bg.png');
+}
+
+
+footer section img{
+  float: left;
+}
+footer section button {
+  float: right;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
